@@ -70,6 +70,11 @@ p { margin: 0 0 14px; text-wrap: pretty; }
   margin: 14px 0;
 }
 
+/* Apple's badge, kept at its own proportions with clear space of at least a quarter of its height */
+.store { margin: 22px 0 8px; }
+.store a { display: inline-block; line-height: 0; border-radius: 10px; }
+.store img { height: 50px; width: auto; }
+
 /* A timer's intervals laid end to end, sized by length, used once on the home page */
 .timeline { display: flex; gap: 4px; margin: 28px 0 8px; height: 56px; }
 .timeline span { border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 700; font-size: 0.85rem; min-width: 0; overflow: hidden; }
